@@ -4,6 +4,10 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class UniqueElementsCounter {
+    public static void main(String[] args) {
+        UniqueElementsCounter uniqueElementsCounter = new UniqueElementsCounter();
+        System.out.println(uniqueElementsCounter.countUniqueElements("hello world!"));
+    }
     private final Map<Character, Integer> elementsMap;
 
     public UniqueElementsCounter() {

@@ -67,7 +67,8 @@ class UniqueElementsCounterTest {
         //given
         String expected = "'a' - 1\n" +
                 "'b' - 1\n" +
-                "'c' - 1\n";
+                "'c'" +
+                " - 1\n";
         //when
         String actual = uniqueElementsCounter.countUniqueElements("abc");
         //then
